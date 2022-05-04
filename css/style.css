@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header Start */
+.header{
+    padding: 15px;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.header .logo{
+    color: white;
+}
+.header .nav-menu ul{
+display: flex;
+justify-content: space-around;
+
+}
+.header .nav-menu{
+    padding: 10px;
+
+}
+.header .nav-menu li{
+    
+    list-style: none;
+    margin-left: 10px;
+}
+.header .nav-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+/* Header End */
+/* Main Start */
+.warm{
+display: flex;
+justify-content: space-around;
+}
+.warm-welcome{
+    background-color: rgb(235, 235, 235);
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.warm-welcome h1{
+    font-size: 35px;
+    margin-top: 70px;
+    text-align: center;
+}
+.warm-welcome p{
+
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+.warm-welcome button{
+    background-color: blue;
+    border: none;
+    border-radius: 9px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+}
+.menu{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.item{
+    background-color: rgb(235, 235, 235);
+    height: 200px;
+    width:400px;
+}
+
+/* Main End */
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
